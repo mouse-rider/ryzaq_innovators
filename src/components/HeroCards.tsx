@@ -1,5 +1,5 @@
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
-// import { Badge } from "./ui/badge";
+import { Badge } from "./ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import {
   Card,
@@ -10,7 +10,7 @@ import {
   CardFooter,
 } from "@/components/ui/card";
 import { Linkedin } from "lucide-react";
-// import { LightBulbIcon } from "./Icons";
+import { LightBulbIcon } from "./Icons";
 // import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
 export const HeroCards = () => {
@@ -29,11 +29,11 @@ export const HeroCards = () => {
 
           <div className="flex flex-col">
             <CardTitle className="text-lg">Admin</CardTitle>
-            <CardDescription>@ryzaq_innovators</CardDescription>
+            <CardDescription>@InfoSpark</CardDescription>
           </div>
         </CardHeader>
 
-        <CardContent>This Quantum World is Awesome!</CardContent>
+        <CardContent>Web & App Development</CardContent>
       </Card>
 
       {/* Team */}
@@ -44,15 +44,15 @@ export const HeroCards = () => {
             alt="user avatar"
             className="absolute grayscale-[0%] -top-12 rounded-full w-24 h-24 aspect-square object-cover"
           /> */}
-          <CardTitle className="text-center">Ryzaq</CardTitle>
+          <CardTitle className="text-center">InfoSpark</CardTitle>
           <CardDescription className="font-normal text-primary">
-            Quantum World
+            Enterprise Software Development
           </CardDescription>
         </CardHeader>
 
         <CardContent className="text-center pb-2">
           <p>
-           Step into the future with Quantum & Nanotech 🌍
+          AI/ML & Data Analytics
           </p>
         </CardContent>
 
@@ -108,7 +108,7 @@ export const HeroCards = () => {
       </Card>
 
       {/* Pricing */}
-      {/* <Card className="absolute top-[150px] left-[50px] w-72  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
+      <Card className="absolute top-[150px] left-[50px] w-72  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader>
           <CardTitle className="flex item-center justify-between">
             Free
@@ -130,7 +130,7 @@ export const HeroCards = () => {
         </CardHeader>
 
         <CardContent>
-          <Button className="w-full">Start Free Trial</Button>
+          {/* <Button className="w-full">Start Free Trial</Button> */}
         </CardContent>
 
         <hr className="w-4/5 m-auto mb-4" />
@@ -143,17 +143,17 @@ export const HeroCards = () => {
                   key={benefit}
                   className="flex"
                 >
-                  <Check className="text-green-500" />{" "}
+                  {/* <Check className="text-green-500" />{" "} */}
                   <h3 className="ml-2">{benefit}</h3>
                 </span>
               )
             )}
           </div>
         </CardFooter>
-      </Card> */}
+      </Card>
 
       {/* Service */}
-      {/* <Card className="absolute w-[350px] -right-[10px] bottom-[35px]  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
+      <Card className="absolute w-[350px] -right-[10px] bottom-[35px]  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader className="space-y-1 flex md:flex-row justify-start items-start gap-4">
           <div className="mt-1 bg-primary/20 p-1 rounded-2xl">
             <LightBulbIcon />
@@ -166,7 +166,7 @@ export const HeroCards = () => {
             </CardDescription>
           </div>
         </CardHeader>
-      </Card> */}
+      </Card>
     </div>
   );
 };

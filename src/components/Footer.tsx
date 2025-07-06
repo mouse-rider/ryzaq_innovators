@@ -13,7 +13,7 @@ export const Footer = () => {
             className="font-bold text-xl flex"
           >
             <LogoIcon />
-            Ryzaq
+            Info Spark
           </a>
         </div>
 

@@ -21,42 +21,7 @@ const testimonials: TestimonialProps[] = [
     userName: "@ryzaq_innovators",
     comment: "This Quantum is awesome!",
   },
-  {
-    image: "https://github.com/shadcn.png",
-    name: "Admin",
-    userName: "@ryzaq_innovators",
-    comment:
-      "Non-Classical Logic – Quantum mechanics operates on principles like superposition and entanglement, which don’t align with how we experience reality in daily life. 🚀",
-  },
 
-  {
-    image: "https://github.com/shadcn.png",
-    name: "Admin",
-    userName: "@ryzaq_innovators",
-    comment:
-      "It relies on advanced mathematics, including linear algebra, complex numbers, and differential equations, making it hard for non-experts to grasp. 🔢🤯",
-  },
-  {
-    image: "https://github.com/shadcn.png",
-    name: "Admin",
-    userName: "@ryzaq_innovators",
-    comment:
-      " Quantum phenomena occur at atomic and subatomic scales, far removed from human perception, making it hard to relate to real-world experiences. 🌍➡️🔬",
-  },
-  {
-    image: "https://github.com/shadcn.png",
-    name: "Admin",
-    userName: "@ryzaq_innovators",
-    comment:
-      "Measurement changes the system, making it difficult to visualize what's really happening at a microscopic level. 🧐🔬",
-  },
-  {
-    image: "https://github.com/shadcn.png",
-    name: "Admin",
-    userName: "@ryzaq_innovators",
-    comment:
-      "Despite its complexity, quantum mechanics is essential for modern technology, from semiconductors to quantum computing! 💡🚀",
-  },
 ];
 
 export const Testimonials = () => {
@@ -72,7 +37,7 @@ export const Testimonials = () => {
           People Can't{" "}
         </span>
         Understand Quantum World
-      </h2>
+      </h2><br /><br />
 
       {/* <p className="text-xl text-muted-foreground pt-4 pb-8">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non unde error

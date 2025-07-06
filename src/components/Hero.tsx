@@ -10,23 +10,21 @@ export const Hero = () => {
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline">
             <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
-              Ryzaq
+              Info Spark
             </span>{" "}
             Innovators 
           </h1>{" "}
           for{" "}
           <h2 className="inline">
             <span className="inline bg-gradient-to-r from-[#61DAFB] via-[#1fc0f1] to-[#03a3d7] text-transparent bg-clip-text">
-            Quantum innovation
+            Empowering Digital Futures
             </span>{" "}
-            one atom at a time. ⚛️
+           🚀
           </h2>
         </main>
 
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-        ⚛️ Step into the future with Quantum & Nanotech 🌍—where innovation happens at the atomic scale!
-
-🚀 Powering the next era of computing 🖥️, sensing 🎯, and advanced materials 🧪
+        At InfoSpark, we ignite innovation by offering cutting-edge 💻 IT solutions and 🎓 professional training services tailored for individuals, startups, and enterprises. As a trusted 🤝 technology partner, we drive business growth, empower talent, and foster digital transformation across industries.
         </p>
 
         <div className="space-y-4 md:space-y-0 md:space-x-4">
@@ -47,9 +45,9 @@ export const Hero = () => {
       </div>
 
       {/* Hero cards sections */}
-      <div className="z-10">
+      {/* <div className="z-10">
         <HeroCards />
-      </div>
+      </div> */}
 
       {/* Shadow effect */}
       <div className="shadow"></div>

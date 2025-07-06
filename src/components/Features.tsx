@@ -18,35 +18,33 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: "Quantum-Powered Innovation",
+    title: "Our Vision 👁️‍🗨️",
     description:
-      "Advancing quantum computing and sensing to revolutionize industries, from ultra-secure communications to high-speed data processing.",
+      "To be a globally recognized leader in IT solutions and training, driving innovation, empowering careers, and enabling businesses through smart technology. 🌍💼",
     image: image4,
   },
+
   {
-    title: "Next-Gen Nanotechnology",
+    title: "  Our Mission 🎯",
     description:
-      "Engineering nanomaterials and devices for breakthroughs in semiconductors, medicine, and energy-efficient electronics.",
+      "To deliver high-quality software development 💻, consulting 🧑‍💼, and cloud-based services ☁️ to help businesses scale and succeed. To bridge the gap between education and employment through industry-aligned training programs 📚. To promote a culture of continuous learning 📈, adaptability 🔄, and innovation 🧠. To create value-driven partnerships with clients, students, and institutions 🤝.",
     image: image3,
   },
+
   {
-    title: "Real-World Impact",
+    title: "Our Core Values 🛡️",
     description:
-      "Bridging the gap between theoretical research and commercial applications, shaping the future of AI, healthcare, and advanced materials.",
+      "💡 Innovation – We embrace change and lead with creativity. 🔒 Commitment – We deliver on our promises with integrity and passion. 📚 Knowledge – We believe in lifelong learning and skill enhancement. 🤝 Collaboration – We grow through strong partnerships and teamwork. 🌟 Excellence – We strive for the highest standards in everything we do.",
     image: image,
   },
 ];
 
 const featureList: string[] = [
-  "Dark/Light theme",
-  "Reviews",
-  "Features",
-  "Pricing",
   "Contact form",
   "Our team",
   "Responsive design",
   "Newsletter",
-  "Minimalist",
+ 
 ];
 
 export const Features = () => {

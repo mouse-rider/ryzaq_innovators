@@ -18,18 +18,14 @@ export const About = () => {
             <div className="pb-6">
               <h2 className="text-3xl md:text-4xl font-bold">
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-                  About{" "}
+                  About {" "}
                 </span>
-                Company
+                InfoSpark 🧠
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-              At RYZAQ, we are redefining the future with breakthrough innovations in quantum mechanics and nanotechnology. ⚛️✨ Our mission is to push the boundaries of science, transforming cutting-edge research into real-world solutions that revolutionize computing, sensing, and advanced materials.
+              InfoSpark is a next-generation 💡 IT solutions provider and 📘 training partner committed to solving real-world problems with smart, scalable technology. Headquartered in India 🇮🇳, we partner with leading tech platforms to deliver 🚀 enterprise-grade software and job-oriented training programs.
 
-With expertise in quantum computing, nanomaterials, and next-generation semiconductors, we develop technologies that drive progress across industries—from secure communication and ultra-fast processors to precision medical diagnostics. 🖥️🔬
-
-At RYZAQ, we don’t just follow the future—we create it. 🚀 Join us in shaping a world powered by quantum intelligence and nanoscale engineering!
-
-
+We blend industry expertise, certified trainers 👨‍🏫, and hands-on project training 🛠️ to nurture tech-savvy professionals and support organizations in achieving their digital transformation goals. 🌐
 
 
 

@@ -10,21 +10,21 @@ interface ServiceProps {
 
 const serviceList: ServiceProps[] = [
   {
-    title: "Code Collaboration",
+    title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "We create fast, secure, and responsive web solutions tailored to your business goals.🔹 Static & Dynamic Website Design🔹 E-commerce Development (Shopify, WooCommerce, Custom)🔹 Web Applications (CRM, ERP, CMS)🔹 Frontend: React.js, Angular, HTML5, CSS3🔹 Backend: Node.js, Express, Django, PHP🔹 Database: MongoDB, MySQL, Firebase🔹 SEO Optimization & Deployment (AWS, Netlify, Vercel)",
     icon: <ChartIcon />,
   },
   {
-    title: "Project Management",
+    title: "IoT (Internet of Things) Solutions",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "We help you build intelligent and connected devices for smarter living and operations.🔹 Embedded System Development (Arduino, ESP32, Raspberry Pi)🔹 Sensor Interfacing and Data Acquisition🔹 IoT Dashboard & Cloud Integration (Blynk, MQTT, Firebase, ThingsBoard)🔹 Applications: Smart Home, Smart Agriculture, Healthcare Monitoring, Industrial IoT🔹 Mobile App + IoT integration🔹 Real-time alerts & remote control via web/mobile",
     icon: <WalletIcon />,
   },
   {
-    title: "Task Automation",
+    title: "Artificial Intelligence & Machine Learning",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Empowering businesses with intelligent automation and data-driven insights.🔹 Predictive Analytics & Model Training🔹 Computer Vision (Object Detection, Image Recognition)🔹 Natural Language Processing (Chatbots, Sentiment Analysis🔹 AI-Powered Chatbot Development🔹 Tools & Frameworks: Python, TensorFlow, Scikit-learn, OpenCV🔹 Integration with Web & IoT Platforms",
     icon: <MagnifierIcon />,
   },
 ];
@@ -36,14 +36,15 @@ export const Services = () => {
         <div>
           <h2 className="text-3xl md:text-4xl font-bold">
             <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-              Client-Centric{" "}
+              Our{" "}
             </span>
             Services
           </h2>
 
           <p className="text-muted-foreground text-xl mt-4 mb-8 ">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-            dolor.
+            We specialize in delivering innovative and high-impact technology solutions in three major domains: Web Development, IoT, and AI/ML. Our expertise helps individuals, startups, and enterprises thrive in the digital era.
+
+
           </p>
 
           <div className="flex flex-col gap-8">
